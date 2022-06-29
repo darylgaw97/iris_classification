@@ -27,7 +27,7 @@ st.subheader('User Input parameters')
 st.write(df)
 
 iris = pd.read_csv('https://raw.githubusercontent.com/darylgaw97/iris_classification/main/Iris.csv')
-X = iris['SepalLengthCm', 'SepalWidthCm', 'PetalLengthCm', 'PetalWidthCm']
+X = iris[['SepalLengthCm', 'SepalWidthCm', 'PetalLengthCm', 'PetalWidthCm']]
 Y = iris.target
 
 clf = RandomForestClassifier()
