@@ -41,7 +41,7 @@ st.write(['Iris-setosa', 'Iris-versicolor', 'Iris-virginica'])
 
 st.subheader('Prediction')
 # st.write(iris.target_names[prediction])
-st.markdown(prediction)
+st.markdown(prediction[0])
 
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
